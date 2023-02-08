@@ -1,12 +1,13 @@
 #----- Taille d'une chaine ------------8
 
-h = "Bonjour" "Aurevoir"
+
+h = ("bonjour")
 
 try:
     h_int = str(h)
-    if h == "":
+    if h=="":
         print("ERREUR.")
-    elif h == "Bonjour" "Aurevoir":
+    elif len(h) > 10:
         print("ERREUR.")
     else:
         print(len(h))
